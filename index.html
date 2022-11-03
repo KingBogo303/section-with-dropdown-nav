@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;400;500;600;700;800&family=Epilogue:wght@200;300;400;500;600;700;800;900&family=Fraunces:opsz,wght@9..144,200;9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <!--Header section-->
+    <header>
+      <img class="logo" src="./images/logo.svg" alt="" />
+      <img src="./images/icon-menu.svg" alt="menu" class="menu" />
+      <img src="./images/icon-close-menu.svg" alt="menu" class="menu-close" />
+      <div class="navbar">
+        <div class="left">
+          <div class="features">
+            <a href="#"
+              >Features
+              <img
+                class="down-arrow-f"
+                src="./images/icon-arrow-down.svg"
+                alt="arr-down"
+            /></a>
+            <ul class="features-list">
+              <li>
+                <i class="bx bxs-notepad"></i>
+                Todo List
+              </li>
+              <li><i class="bx bxs-calendar-event"></i>Calender</li>
+              <li><i class="bx bxs-bell"></i>Reminders</li>
+              <li><i class="bx bxs-time-five"></i>Planning</li>
+            </ul>
+          </div>
+          <div class="company">
+            <a href="#"
+              >Company
+              <img
+                class="down-arrow-c"
+                src="./images/icon-arrow-down.svg"
+                alt="arr-down"
+              />
+            </a>
+            <ul class="company-list">
+              <li>History</li>
+              <li>Our Team</li>
+              <li>Blog</li>
+            </ul>
+          </div>
+          <a href="">Careers</a>
+          <a href="">About</a>
+        </div>
+        <div class="right">
+          <a href="">Login</a>
+          <a href="" class="btn btn-reg">Register</a>
+        </div>
+      </div>
+    </header>
+
+    <!--main content-->
+    <section class="main">
+      <div class="main-left">
+        <h1>Make <br class="br" />remote work</h1>
+        <p>
+          Get your team in sync, no matter your location. Streamline processes,
+          create team rituals, and watch productivity soar.
+        </p>
+        <a href="" class="btn btn-learn">Learn more</a>
+        <div class="orgs">
+          <img src="./images/client-databiz.svg" alt="databiz" />
+          <img src="./images/client-audiophile.svg" alt="audiophile" />
+          <img src="./images/client-meet.svg" alt="meet" />
+          <img src="./images/client-maker.svg" alt="maker" />
+        </div>
+      </div>
+      <img
+        class="main-right desktop"
+        src="./images/image-hero-desktop.png"
+        alt=""
+      />
+      <img
+        class="main-right mobile"
+        src="./images/image-hero-mobile.png"
+        alt=""
+      />
+    </section>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
